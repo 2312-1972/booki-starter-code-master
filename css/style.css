@@ -106,10 +106,12 @@ h3{
       height:19px;
       }
             
-.nav1{display: flex;width: 344px;
+.nav1{display: flex;width: 344px;justify-content: space-between;
+    
 }
+
 .lien { 
-        width: 172px;
+       
         font-family: 'raleway',sans-serif;
         font-style: normal;
         font-size: 16px;
@@ -119,12 +121,14 @@ h3{
         margin-left: 69px;
         text-decoration: none;
         text-align: center;
+       
      }
 
 .lienh:hover{ 
         padding-top: 5px;
         border-top: 2px solid ;
         color: var(--main-color);
+        
         }
    
 /**formulaire de recherche*/
@@ -135,6 +139,7 @@ a{ font-family: 'raleway',sans-serif;
     color: black;
     line-height: 19.96px;
     text-decoration: none;
+    
 }
 .nav{display: flex;
      width: 377px;
@@ -568,15 +573,16 @@ header{display: flex;
     
 .nav1{width: 100%;
     padding-bottom: 10px;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    height: 100%;
+    
 }
         
 .phone1{width: 50%;
+   
 }
-.lien{margin: 0px;
-    padding-left: 40px;
+.lien{margin: 0px;width: 50%;
+    
 }
 .lienh1:hover  {
         width: 50%;
@@ -586,9 +592,10 @@ header{display: flex;
         color: var(--main-color);
         border-bottom: 2px solid ;
         padding-bottom: 15px;
+       
             
         }
-.lienh :hover{display: none;
+.lienh :hover{display: none; 
 }
     
 h1 {
