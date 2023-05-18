@@ -23,6 +23,40 @@ header { display: flex;
           justify-content: space-between;
           height: 79px;
          }
+.logo{display: flex;
+      flex-direction: column;
+      align-self: center;
+      width: 61px;
+      height:19px;
+      }
+            
+.nav1{display: flex;width: 344px;justify-content: space-between;
+    
+}
+
+.lien { 
+        
+        font-family: 'raleway',sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        line-height: 19px;
+        margin-left: 69px;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 15px;
+       
+     }
+
+.lienh:hover{ 
+    
+    padding-top: 15px;
+    border-top: 2px solid;
+    color: var(--main-color);
+     
+        
+        }
 .main-container {
     max-width: 1440px;
     min-width: 320px;
@@ -99,37 +133,7 @@ h3{
 .euro {
     font-weight: 700;
 }
-.logo{display: flex;
-      flex-direction: column;
-      align-self: center;
-      width: 61px;
-      height:19px;
-      }
-            
-.nav1{display: flex;width: 344px;justify-content: space-between;
-    
-}
 
-.lien { 
-       
-        font-family: 'raleway',sans-serif;
-        font-style: normal;
-        font-size: 16px;
-        font-weight: 400;
-        color: black;
-        line-height: 19px;
-        margin-left: 69px;
-        text-decoration: none;
-        text-align: center;
-       
-     }
-
-.lienh:hover{ 
-        padding-top: 5px;
-        border-top: 2px solid ;
-        color: var(--main-color);
-        
-        }
    
 /**formulaire de recherche*/
 a{ font-family: 'raleway',sans-serif;
